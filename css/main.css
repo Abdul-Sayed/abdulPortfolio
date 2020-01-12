@@ -226,6 +226,10 @@ header {
   padding: 1rem;
 }
 
+.nav-link:hover {
+  font-size: 3rem;
+}
+
 .nav-link:hover, .nav-link:focus {
   background: linear-gradient(to top, #ffe838, #fd57bf);
   background-clip: text;
