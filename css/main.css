@@ -100,8 +100,7 @@ img {
   margin-bottom: 1rem;
 }
 
-.section-heading h1::before,
-.section-heading h1::after {
+.section-heading h1::before, .section-heading h1::after {
   content: "";
   position: absolute;
   bottom: -0.5rem;
@@ -222,13 +221,12 @@ header {
 }
 
 .nav-link {
-  font-family: "The Historia Demo", sans-serif;
+  font-family: "The Historia Demo", streamster, sans-serif;
   font-size: 5rem;
   padding: 1rem;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   background: linear-gradient(to top, #ffe838, #fd57bf);
   background-clip: text;
   -webkit-background-clip: text;
@@ -513,8 +511,7 @@ header {
   border: none;
 }
 
-.timeline .date::before,
-.timeline .date::after {
+.timeline .date::before, .timeline .date::after {
   position: absolute;
   display: block;
   top: 50%;
@@ -557,9 +554,7 @@ header {
   font-size: 1.5rem;
 }
 
-input,
-select,
-textarea {
+input, select, textarea {
   width: 100%;
   padding: 1rem;
   margin: 1rem 0;
