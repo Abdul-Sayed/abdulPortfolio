@@ -221,13 +221,9 @@ header {
 }
 
 .nav-link {
-  font-family: "The Historia Demo", streamster, sans-serif;
+  font-family: The Historia Demo, streamster, sans-serif;
   font-size: 5rem;
   padding: 1rem;
-}
-
-.nav-link:hover {
-  font-size: 3rem;
 }
 
 .nav-link:hover, .nav-link:focus {
