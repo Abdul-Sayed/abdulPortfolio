@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Abdul's Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      defer
+      src="https://kit.fontawesome.com/e480186782.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/main.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <!-- <li><a href="#experience" class="nav-link">Experience</a></li> -->
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Abdul Sayed</h1>
+        <h6>Software Developer, Engineer</h6>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="./img/DSCN0349.JPG" alt="" />
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            I’M A PROGRAMMER AND MECHANICAL ENGINEERING GRADUATE THAT
+            TRANSITIONED INTO PROGRAMMING WHEN I FOUND MYSELF WRITING CUSTOM
+            TECHNICAL INDICATORS ON THE THINKORSWIM PLATFORM TO AID MY TRADING
+            STRATEGY. I’VE RECENTLY COMPLETED TRAINING AT THE FLATIRON SCHOOL
+            AND AM EXCITED TO COMBINE MY ANALYTICAL SKILLS WITH MY NEW EXPERTISE
+            IN REACT AND RUBY ON RAILS. I’VE WORKED ON SMALL FULL-STACK PROJECTS
+            TO EXERCISE MY KNOWLEDGE IN VARIOUS WEB DEVELOPMENT TECHNOLOGIES
+            USEFUL IN A NEW OPPORTUNITY AS A DEVELOPER. LISTENING TO EXPERIENCED
+            ENGINEERS TO IMPROVE MY COMPETENCY AND EXPANDING MY SKILL SET
+            PROVIDES ME SATISFACTION.
+          </p>
+          <ul class="nav-list">
+            <li>
+              <a
+                href="https://github.com/Abdul-Sayed"
+                target="_blank"
+                class="icon-link"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/abdul-sayed-engr/"
+                target="_blank"
+                class="icon-link"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://medium.com/@awsayed"
+                target="_blank"
+                class="icon-link"
+              >
+                <i class="fab fa-medium-m"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Services</h1>
+          <h6>What I can do for you</h6>
+        </div>
+        <div class="my-skills">
+          <div class="skill" data-aos="fade-in" data-aos-delay="250">
+            <div class="icon-container"><i class="fas fa-layer-group"></i></div>
+            <h1>Front End Development</h1>
+            <p>
+              Skilled in UI development using web development technologies and popular frameworks
+            </p>
+            <div class="skill-icons">
+              <i class="fab fa-js-square fa-3x javascript"></i>
+              <i class="fab fa-react fa-3x react"></i>
+              <i class="fab fa-angular fa-3x angular"></i>
+              <i class="fab fa-html5 fa-3x html"></i>
+              <i class="fab fa-css3-alt fa-3x css"></i>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-in" data-aos-delay="350">
+            <div class="icon-container"><i class="fas fa-code"></i></div>
+            <h1>Back End Development</h1>
+            <p>
+              Experience with serverside development technologies built around ruby and javascript
+            </p>
+            <div class="skill-icons">
+              <img src="./img/ruby.svg" alt="rubygem" class="ruby" />
+              <img src="./img/rails.svg" alt="rails" class="ruby" />
+              <i class="fab fa-node fa-3x node"></i>
+              <img src="./img/express-js-seeklogo.com.svg" alt="rails" class="ruby express" />
+              <img src="./img/mongodb.svg" alt="rails" class="ruby" width="42" height="42"/>
+            </div>
+          </div>
+          <div class="skill" data-aos="fade-in" data-aos-delay="450">
+            <div class="icon-container"><i class="fas fa-mobile-alt"></i></div>
+            <h1>Mobile Development</h1>
+            <p>
+              Familiarity with hybrid mobile development using the ionic framework
+            </p>
+            <div class="skill-icons">
+              <img src="./img/Ionic.svg" alt="ionic" width="40" height="40" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>My Recent Projects</h6>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
+            <a href="https://everyonenote.surge.sh/" target="_blank"
+              ><img src="img/projects/EVERNOTE.PNG" alt="EverNote"
+            /></a>
+          </div>
+          <div
+            class="portfolio-description"
+            data-aos="fade-left"
+            data-aos-delay="450"
+          >
+            <h1>EveryoneNote</h1>
+            <p>
+              EverNote inspired note taking app build with React on Rails. The
+              Single Page Application utilizes props drilling and lifting of
+              state to share data across components. Backend built around a user
+              and a saved note model.
+            </p>
+            <a
+              href="https://github.com/Abdul-Sayed/EveryoneNote"
+              target="_blank"
+              class="cta"
+              >View Code</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-description has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="600"
+          >
+            <h1>io Chat</h1>
+            <p>
+              Real time websocket chat app using node, express, socket.io,
+              vanilla JS DOM manipulation, and custom CSS. ioChat persists
+              messages and has a Skype inspired design. It was built to practice
+              Socket.io, a real-time event based bidirection communication
+              library for Javascript. Chat messages left by app users are cached
+              in a MongoDB server to allow a persisted history upon susequent
+              sign in.
+            </p>
+            <a
+              href="https://github.com/Abdul-Sayed/ioChat"
+              target="_blank"
+              class="cta"
+              >View Code</a
+            >
+          </div>
+          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="750">
+            <a href="https://github.com/Abdul-Sayed/ioChat" target="_blank"
+              ><img src="img/projects/ioChat.PNG" alt="ioChat"
+            /></a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="900"
+          >
+            <a href="http://lazy-chef.surge.sh/" target="_blank"
+              ><img src="img/projects/LazyChef.PNG" alt="LazyChef"
+            /></a>
+          </div>
+          <div
+            class="portfolio-description"
+            data-aos="fade-left"
+            data-aos-delay="1050"
+          >
+            <h1>LazyChef</h1>
+            <p>
+              Find what you can cook using ingredients you have at hand.
+              LazyChef lets you know what's possible with what you already have
+              in the fridge or pantry. Built with RoR (React as the front and a
+              backend RESTful API built with Rails on the back). Uses
+              react-router and props drilling amongst stateful components.
+              Consumes a 3rd party recipe API provided by Spoonacular. All
+              custom CSS to obtain a unique look.
+            </p>
+            <a
+              href="https://github.com/Abdul-Sayed/Lazy_Chef"
+              target="_blank"
+              class="cta"
+              >View Code</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Experience</h1>
+          <h6>Past Jobs</h6>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+          <ul>
+            <li class="date" data-date="2011-Present">
+              <h1>Google</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
+                voluptatibus.
+              </p>
+            </li>
+            <li class="date" data-date="2008-2011">
+              <h1>Facebook</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
+                voluptatibus.
+              </p>
+            </li>
+            <li class="date" data-date="2002-2007">
+              <h1>Amazon</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea,
+                voluptatibus.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Lets work together</h6>
+        </div>
+        <form action="https://formspree.io/xgeavrjq" method="POST" data-aos="fade-up" data-aos-delay="300">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <label for="service">Services:</label>
+          <select name="services" id="service">
+            <option value="">Front End</option>
+            <option value="">Back End</option>
+            <option value="">Mobile</option>
+          </select>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" cols="10" rows="10"></textarea>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <div id="up" class="up" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>&copy; 2020 Abdul Sayed</p>
+    </footer>
+  </body>
+</html>
